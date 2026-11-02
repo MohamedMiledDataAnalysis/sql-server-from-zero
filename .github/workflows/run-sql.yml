@@ -1,0 +1,25 @@
+name: Run every SQL script on SQL Server 2025
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  run-sql:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run all scripts on SQL Server 2025 (Docker)
+        run: bash tests/run_all.sh
+        env:
+          FULL_LOGS: "1"
+      - name: Publish the report
+        if: always()
+        run: cat tests/output/REPORT.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sql-test-output
+          path: tests/output
