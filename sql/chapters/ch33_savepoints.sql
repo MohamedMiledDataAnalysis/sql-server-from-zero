@@ -2,8 +2,8 @@
    Chapter 33: SAVE TRANSACTION, @@TRANCOUNT and nested transactions
    Requires: NorthbridgeLending database (sql/setup). Target: SQL Server 2025 (runs on 2022).
    Every change to a base table is rolled back or reversed: the script leaves the
-   dataset as loaded. Errors raised on purpose, each in its own batch and followed
-   by a guarded ROLLBACK: 3902 and 3903 (section 2), 6401 (section 3), 266 twice
+   dataset as loaded. Errors raised on purpose, each the last statement of its own
+   batch and followed by a guarded ROLLBACK: 3902 and 3903 (section 2), 6401 (section 3), 266 twice
    (section 5). */
 USE NorthbridgeLending;
 GO
@@ -89,6 +89,7 @@ SET PaidDate = '2026-09-30', AmountPaid = AmountDue, DaysLate = 119
 WHERE PaymentID = 4474;
 
 ROLLBACK TRANSACTION InnerPosting;               -- not registered
+GO
 PRINT CONCAT(N'Open transactions: ', @@TRANCOUNT);
 GO
 ROLLBACK TRANSACTION OuterPosting;               -- registered name
@@ -145,6 +146,7 @@ GO
 
 -- Fails on purpose with Msg 266 (Previous count = 0, current count = 1).
 EXEC dbo.usp_Bad_LeaveOpen;
+GO
 PRINT CONCAT(N'Open transactions: ', @@TRANCOUNT);
 GO
 IF @@TRANCOUNT > 0
@@ -169,6 +171,7 @@ SET LoanStatus = N'Default'
 WHERE LoanID = 10196;
 
 EXEC dbo.usp_Bad_RollbackAll;
+GO
 PRINT CONCAT(N'Open transactions: ', @@TRANCOUNT);
 
 SELECT LoanID, LoanStatus

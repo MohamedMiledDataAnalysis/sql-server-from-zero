@@ -28,6 +28,8 @@ BEGIN
     DROP DATABASE AUDIT SPECIFICATION NorthbridgeLoanReads;
 END;
 GO
+USE master;
+GO
 IF EXISTS (SELECT 1 FROM sys.server_audits WHERE name = N'NorthbridgeAudit')
 BEGIN
     ALTER SERVER AUDIT NorthbridgeAudit WITH (STATE = OFF);
@@ -484,8 +486,12 @@ ALTER DATABASE AUDIT SPECIFICATION NorthbridgeCustomerReads
     WITH (STATE = OFF);
 DROP DATABASE AUDIT SPECIFICATION NorthbridgeCustomerReads;
 GO
+USE master;     -- server audits are changed from master
+GO
 ALTER SERVER AUDIT NorthbridgeAudit WITH (STATE = OFF);
 DROP SERVER AUDIT NorthbridgeAudit;
+GO
+USE NorthbridgeLending;
 GO
 
 -- ==============================================================

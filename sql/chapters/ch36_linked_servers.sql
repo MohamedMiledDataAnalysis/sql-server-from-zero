@@ -21,20 +21,21 @@ DROP TABLE IF EXISTS dbo.Practice_RemoteNote;
 DROP TABLE IF EXISTS dbo.Practice_BranchRiskSnapshot;
 DROP USER IF EXISTS nb_link_reader;
 GO
--- A login cannot be dropped while connected (error 15434):
--- wait up to 60 seconds for remote connections to close
-DECLARE @Waited INT = 0;
-WHILE EXISTS (SELECT 1 FROM sys.dm_exec_sessions
-              WHERE login_name = N'nb_link_reader')
-      AND @Waited < 60
+-- Pooled connections opened by the linked server and OPENROWSET can stay
+-- open after the queries end: close them with KILL (chapter 38), then drop
+DECLARE @Session INT, @Kill NVARCHAR(30);
+WHILE 1 = 1
 BEGIN
-    WAITFOR DELAY '00:00:01';
-    SET @Waited += 1;
+    SELECT TOP (1) @Session = session_id
+    FROM sys.dm_exec_sessions
+    WHERE login_name = N'nb_link_reader'
+      AND session_id <> @@SPID;
+    IF @@ROWCOUNT = 0 BREAK;
+    SET @Kill = N'KILL ' + CAST(@Session AS NVARCHAR(10)) + N';';
+    EXEC (@Kill);
 END;
 IF EXISTS (SELECT 1 FROM sys.server_principals
            WHERE name = N'nb_link_reader')
-   AND NOT EXISTS (SELECT 1 FROM sys.dm_exec_sessions
-                   WHERE login_name = N'nb_link_reader')
     DROP LOGIN nb_link_reader;
 GO
 
@@ -240,12 +241,14 @@ FROM OPENROWSET('MSOLEDBSQL',
 ORDER BY ProductCode;
 GO
 
-SELECT BranchID, BranchName
-FROM OPENDATASOURCE('MSOLEDBSQL',
-    'Server=localhost;UID=nb_link_reader;PWD=Nb#LinkReader2026!;Encrypt=no;')
-    .NorthbridgeLending.dbo.Branch
-WHERE Region = N'Scotland';
-GO
+-- NOT RUN BY THE AUTOMATED TEST: OPENDATASOURCE works on SQL Server for
+-- Windows only; on Linux (Docker) it stops with error 7302 (MSDASC).
+-- SELECT BranchID, BranchName
+-- FROM OPENDATASOURCE('MSOLEDBSQL',
+--     'Server=localhost;UID=nb_link_reader;PWD=Nb#LinkReader2026!;Encrypt=no;')
+--     .NorthbridgeLending.dbo.Branch
+-- WHERE Region = N'Scotland';
+-- GO
 
 -- Back to the defaults at once
 EXEC sys.sp_configure N'Ad Hoc Distributed Queries', 0;
@@ -450,25 +453,22 @@ IF EXISTS (SELECT 1 FROM sys.servers
 GO
 DROP USER IF EXISTS nb_link_reader;
 GO
--- Wait up to 60 seconds for connections of nb_link_reader to close
-DECLARE @Waited INT = 0;
-WHILE EXISTS (SELECT 1 FROM sys.dm_exec_sessions
-              WHERE login_name = N'nb_link_reader')
-      AND @Waited < 60
+-- Pooled connections opened by the linked server and OPENROWSET can stay
+-- open after the queries end: close them with KILL (chapter 38), then drop
+DECLARE @Session INT, @Kill NVARCHAR(30);
+WHILE 1 = 1
 BEGIN
-    WAITFOR DELAY '00:00:01';
-    SET @Waited += 1;
+    SELECT TOP (1) @Session = session_id
+    FROM sys.dm_exec_sessions
+    WHERE login_name = N'nb_link_reader'
+      AND session_id <> @@SPID;
+    IF @@ROWCOUNT = 0 BREAK;
+    SET @Kill = N'KILL ' + CAST(@Session AS NVARCHAR(10)) + N';';
+    EXEC (@Kill);
 END;
 IF EXISTS (SELECT 1 FROM sys.server_principals
            WHERE name = N'nb_link_reader')
-BEGIN
-    IF NOT EXISTS (SELECT 1 FROM sys.dm_exec_sessions
-                   WHERE login_name = N'nb_link_reader')
-        DROP LOGIN nb_link_reader;
-    ELSE
-        PRINT N'nb_link_reader is still connected: run this '
-            + N'clean-up block again in a minute.';
-END;
+    DROP LOGIN nb_link_reader;
 GO
 -- Both options back to their default, 0 (no message if already 0)
 IF EXISTS (SELECT 1 FROM sys.configurations

@@ -142,7 +142,8 @@ ORDER BY resource_type;
 ROLLBACK TRANSACTION;
 GO
 
--- Lock escalation: 6,000 rows in one statement
+-- Lock escalation: 6,000 rows in one statement. On the test server the
+-- 6,000 KEY X locks remain (no escalation): see the book, section 2.
 BEGIN TRANSACTION;
 
 UPDATE dbo.Payment

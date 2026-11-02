@@ -18,12 +18,11 @@ GO
 -- 1. What an error is: number, severity, state and line
 -- ==============================================================
 
--- A statement error without TRY...CATCH: the batch continues
--- (deliberate error 8134)
+-- A statement error without TRY...CATCH: it ends the statement, not
+-- the batch (deliberate error 8134, the last statement of its batch)
 GO
 DECLARE @Loans INT = 0, @Ratio INT;
 SET @Ratio = 1000 / @Loans;
-PRINT N'The batch continues after error 8134.';
 GO
 
 -- The catalogue of messages
@@ -147,7 +146,7 @@ GO
 -- ==============================================================
 
 -- Severity 10 is a message; severity 16 is an error that does not
--- stop the batch (deliberate error 50000)
+-- stop the batch (deliberate error 50000, the last statement of its batch)
 GO
 DECLARE @Branch NVARCHAR(60), @Arrears INT;
 
@@ -163,7 +162,6 @@ GROUP BY b.BranchName;
 RAISERROR (N'Branch %s: %d loans in arrears.', 10, 1,
            @Branch, @Arrears);
 RAISERROR (N'%s needs a review this week.', 16, 1, @Branch);
-PRINT N'RAISERROR did not stop the batch.';
 GO
 
 -- Progress messages sent at once with WITH NOWAIT
@@ -226,7 +224,7 @@ WHERE LoanID = 10004;
 
 INSERT INTO dbo.Payment              -- payment 1 again:
 SELECT * FROM dbo.Payment WHERE PaymentID = 1;   -- duplicate key
-
+GO
 SELECT @@TRANCOUNT AS OpenTransactions,
        OutstandingBalance
 FROM dbo.Loan
