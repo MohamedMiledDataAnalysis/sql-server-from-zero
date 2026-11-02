@@ -2,8 +2,8 @@
    Chapter 33: SAVE TRANSACTION, @@TRANCOUNT and nested transactions — solutions to the exercises
    Requires: NorthbridgeLending database (sql/setup). Target: SQL Server 2025 (runs on 2022).
    Every change to a base table is rolled back: the dataset stays as loaded.
-   Errors raised on purpose, each in its own batch and followed by a guarded
-   ROLLBACK: 3902 (correction 33.4) and 266 (correction 33.8). */
+   Errors raised on purpose, each the last statement of its own batch and
+   followed by a guarded ROLLBACK: 3902 (correction 33.4) and 266 (correction 33.8). */
 USE NorthbridgeLending;
 GO
 
@@ -224,12 +224,11 @@ GO
 
 -- Fails on purpose with Msg 266 (Previous count = 1, current count = 0).
 -- the faulty procedure, as given in the exercise, then:
-DECLARE @rc1 INT, @rc2 INT;
 BEGIN TRANSACTION;
-EXEC @rc1 = dbo.usp_WriteOffLoan @LoanID = 10002;  -- in Default
-EXEC @rc2 = dbo.usp_WriteOffLoan @LoanID = 10196;  -- in Arrears
-PRINT CONCAT(N'Return codes ', @rc1, N' and ', @rc2,
-             N', open transactions ', @@TRANCOUNT);
+EXEC dbo.usp_WriteOffLoan @LoanID = 10002;  -- in Default
+EXEC dbo.usp_WriteOffLoan @LoanID = 10196;  -- in Arrears
+GO
+PRINT CONCAT(N'Open transactions ', @@TRANCOUNT);
 
 SELECT LoanID, LoanStatus, OutstandingBalance
 FROM dbo.Loan

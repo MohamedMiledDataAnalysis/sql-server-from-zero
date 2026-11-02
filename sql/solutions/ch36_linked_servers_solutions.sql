@@ -24,18 +24,21 @@ DROP PROCEDURE IF EXISTS dbo.usp_RemoteBranchArrears;
 DROP USER IF EXISTS nb_link_reader;
 GO
 -- The chapter script's login, if its clean-up could not drop it
-DECLARE @Waited INT = 0;
-WHILE EXISTS (SELECT 1 FROM sys.dm_exec_sessions
-              WHERE login_name = N'nb_link_reader')
-      AND @Waited < 60
+-- Pooled connections opened by the linked server and OPENROWSET can stay
+-- open after the queries end: close them with KILL (chapter 38), then drop
+DECLARE @Session INT, @Kill NVARCHAR(30);
+WHILE 1 = 1
 BEGIN
-    WAITFOR DELAY '00:00:01';
-    SET @Waited += 1;
+    SELECT TOP (1) @Session = session_id
+    FROM sys.dm_exec_sessions
+    WHERE login_name = N'nb_link_reader'
+      AND session_id <> @@SPID;
+    IF @@ROWCOUNT = 0 BREAK;
+    SET @Kill = N'KILL ' + CAST(@Session AS NVARCHAR(10)) + N';';
+    EXEC (@Kill);
 END;
 IF EXISTS (SELECT 1 FROM sys.server_principals
            WHERE name = N'nb_link_reader')
-   AND NOT EXISTS (SELECT 1 FROM sys.dm_exec_sessions
-                   WHERE login_name = N'nb_link_reader')
     DROP LOGIN nb_link_reader;
 GO
 

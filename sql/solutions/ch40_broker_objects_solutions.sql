@@ -39,7 +39,7 @@ GO
 
 SELECT name,
        is_broker_enabled,
-       is_broker_priority_honored        -- HONOR_BROKER_PRIORITY
+       is_honor_broker_priority_on        -- HONOR_BROKER_PRIORITY
 FROM sys.databases
 WHERE name = N'NorthbridgeLending';
 GO

@@ -19,11 +19,15 @@ BEGIN
     DROP DATABASE AUDIT SPECIFICATION NorthbridgeLoanReads;
 END;
 GO
+USE master;
+GO
 IF EXISTS (SELECT 1 FROM sys.server_audits WHERE name = N'NorthbridgeLoanAudit')
 BEGIN
     ALTER SERVER AUDIT NorthbridgeLoanAudit WITH (STATE = OFF);
     DROP SERVER AUDIT NorthbridgeLoanAudit;
 END;
+GO
+USE NorthbridgeLending;
 GO
 DROP PROCEDURE IF EXISTS dbo.usp_BranchExposure;
 DROP USER IF EXISTS nb_risk31;
@@ -318,8 +322,12 @@ ALTER DATABASE AUDIT SPECIFICATION NorthbridgeLoanReads
     WITH (STATE = OFF);
 DROP DATABASE AUDIT SPECIFICATION NorthbridgeLoanReads;
 GO
+USE master;     -- server audits are changed from master
+GO
 ALTER SERVER AUDIT NorthbridgeLoanAudit WITH (STATE = OFF);
 DROP SERVER AUDIT NorthbridgeLoanAudit;
+GO
+USE NorthbridgeLending;
 GO
 
 -- ==============================================================
