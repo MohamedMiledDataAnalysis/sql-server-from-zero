@@ -1,0 +1,551 @@
+CollateralID,LoanID,CollateralType,Description,ValuationAmount,ValuationDate
+1,10001,Residential Property,"Terraced house, BS6 6GL",422000.00,2023-08-08
+2,10003,Commercial Property,Business premises,240000.00,2024-01-20
+3,10004,Vehicle,"Toyota Yaris, registered 2024",32100.00,2024-05-10
+4,10005,Residential Property,"Terraced house, NW3 3NJ",212000.00,2021-12-01
+5,10008,Vehicle,"Vauxhall Corsa, registered 2023",46000.00,2023-06-14
+6,10009,Residential Property,"Terraced house, LS6 8DA",546000.00,2025-12-06
+7,10010,Residential Property,"Detached house, CF11 7PQ",397000.00,2024-05-23
+8,10011,Residential Property,"Flat, M14 4PE",765000.00,2024-03-03
+9,10012,Vehicle,"Nissan Qashqai, registered 2018",18300.00,2025-10-29
+10,10013,Residential Property,"Flat, NE6 3AF",502000.00,2024-02-23
+11,10014,Commercial Property,Business premises,204000.00,2025-04-02
+12,10015,Residential Property,"Semi-detached house, B1 2GQ",208000.00,2025-08-16
+13,10017,Commercial Property,Business premises,198000.00,2023-09-12
+14,10018,Receivables,Trade receivables,134000.00,2024-08-27
+15,10020,Residential Property,"Detached house, B5 3TS",228000.00,2025-06-27
+16,10021,Vehicle,"BMW 1 Series, registered 2020",15600.00,2025-04-24
+17,10023,Residential Property,"Detached house, NE4 6RA",480000.00,2023-02-03
+18,10024,Residential Property,"Semi-detached house, LS8 8RZ",297000.00,2023-08-23
+19,10025,Residential Property,"Flat, M20 6YQ",228000.00,2025-10-06
+20,10027,Equipment,Machinery and equipment,119000.00,2026-05-31
+21,10030,Residential Property,"Detached house, B15 8DZ",188000.00,2025-05-11
+22,10032,Vehicle,"Tesla Model 3, registered 2022",23500.00,2025-12-18
+23,10034,Vehicle,"VW Golf, registered 2018",7700.00,2022-03-19
+24,10035,Residential Property,"Flat, NE4 2LY",610000.00,2025-12-06
+25,10036,Vehicle,"Toyota Yaris, registered 2017",34300.00,2024-06-07
+26,10037,Equipment,Machinery and equipment,235000.00,2024-10-10
+27,10038,Vehicle,"Nissan Qashqai, registered 2023",17700.00,2023-05-18
+28,10039,Residential Property,"Semi-detached house, W2 7GH",140000.00,2021-06-29
+29,10040,Residential Property,"Detached house, B29 1FZ",118000.00,2020-12-29
+30,10041,Residential Property,"Terraced house, LS17 6TZ",593000.00,2023-09-20
+31,10045,Residential Property,"Flat, CF11 1SW",423000.00,2023-10-27
+32,10046,Vehicle,"VW Golf, registered 2022",23100.00,2026-05-18
+33,10048,Residential Property,"Semi-detached house, CF24 3DX",351000.00,2022-12-14
+34,10050,Residential Property,"Terraced house, LS1 6EL",131000.00,2026-02-01
+35,10051,Residential Property,"Detached house, G41 6QB",133000.00,2024-05-19
+36,10052,Residential Property,"Semi-detached house, SE1 6WP",395000.00,2026-05-12
+37,10053,Equipment,Machinery and equipment,83000.00,2022-02-14
+38,10054,Residential Property,"Terraced house, BS6 6NN",307000.00,2024-05-02
+39,10056,Residential Property,"Terraced house, LS1 3AE",223000.00,2025-07-28
+40,10057,Residential Property,"Detached house, M4 3TL",344000.00,2024-08-29
+41,10058,Vehicle,"Nissan Qashqai, registered 2026",8900.00,2026-01-31
+42,10059,Residential Property,"Flat, BS1 3AA",326000.00,2022-04-23
+43,10060,Vehicle,"BMW 1 Series, registered 2024",22100.00,2026-01-25
+44,10061,Vehicle,"Ford Puma, registered 2020",8100.00,2024-02-13
+45,10062,Residential Property,"Terraced house, B29 5RN",477000.00,2025-09-29
+46,10063,Vehicle,"BMW 1 Series, registered 2019",7900.00,2023-12-16
+47,10064,Equipment,Machinery and equipment,197000.00,2026-02-24
+48,10065,Vehicle,"Vauxhall Corsa, registered 2024",40300.00,2024-08-21
+49,10067,Equipment,Machinery and equipment,122000.00,2024-07-12
+50,10069,Vehicle,"Kia Sportage, registered 2019",31300.00,2022-01-24
+51,10070,Residential Property,"Semi-detached house, CF11 2GU",261000.00,2024-04-13
+52,10071,Vehicle,"Kia Sportage, registered 2021",14300.00,2026-01-27
+53,10073,Vehicle,"Ford Puma, registered 2021",34200.00,2023-12-24
+54,10074,Vehicle,"Kia Sportage, registered 2019",31800.00,2022-10-03
+55,10076,Vehicle,"Toyota Yaris, registered 2026",30800.00,2026-05-11
+56,10077,Residential Property,"Detached house, BS16 2FD",301000.00,2022-10-25
+57,10078,Vehicle,"Tesla Model 3, registered 2025",19500.00,2024-12-17
+58,10079,Vehicle,"Ford Puma, registered 2020",36000.00,2025-02-25
+59,10080,Residential Property,"Semi-detached house, G41 3EH",358000.00,2025-01-23
+60,10082,Residential Property,"Semi-detached house, G12 5NE",585000.00,2025-11-07
+61,10083,Receivables,Trade receivables,94000.00,2025-06-21
+62,10084,Residential Property,"Detached house, LS17 4SA",552000.00,2025-09-15
+63,10085,Vehicle,"Ford Puma, registered 2020",21800.00,2021-12-23
+64,10086,Equipment,Machinery and equipment,192000.00,2026-01-11
+65,10089,Vehicle,"VW Golf, registered 2022",28400.00,2022-05-13
+66,10092,Vehicle,"Tesla Model 3, registered 2019",41700.00,2026-02-24
+67,10093,Residential Property,"Terraced house, LS8 1NA",661000.00,2025-12-27
+68,10095,Residential Property,"Terraced house, G12 9QS",275000.00,2022-03-19
+69,10099,Vehicle,"BMW 1 Series, registered 2023",39700.00,2023-05-10
+70,10100,Residential Property,"Detached house, G41 8HJ",283000.00,2025-11-03
+71,10101,Vehicle,"Ford Puma, registered 2024",48800.00,2024-10-12
+72,10103,Vehicle,"VW Golf, registered 2025",28300.00,2025-10-20
+73,10104,Vehicle,"Ford Puma, registered 2026",20600.00,2026-04-04
+74,10105,Residential Property,"Detached house, M14 9XN",268000.00,2025-05-27
+75,10106,Vehicle,"Nissan Qashqai, registered 2021",37700.00,2024-09-18
+76,10108,Residential Property,"Semi-detached house, LS17 7EF",262000.00,2024-06-25
+77,10109,Residential Property,"Detached house, G1 4LQ",335000.00,2025-10-02
+78,10110,Residential Property,"Flat, BS16 9ZU",319000.00,2025-10-09
+79,10111,Residential Property,"Terraced house, SE1 9QQ",530000.00,2025-05-31
+80,10113,Vehicle,"Vauxhall Corsa, registered 2019",50600.00,2024-06-03
+81,10114,Vehicle,"BMW 1 Series, registered 2022",27000.00,2025-10-11
+82,10118,Residential Property,"Detached house, M1 7XL",409000.00,2023-12-08
+83,10119,Vehicle,"VW Golf, registered 2018",42400.00,2022-03-12
+84,10120,Vehicle,"Ford Puma, registered 2025",45200.00,2025-09-04
+85,10121,Residential Property,"Flat, B1 9PS",183000.00,2022-10-25
+86,10122,Residential Property,"Terraced house, CF10 3ES",239000.00,2025-07-02
+87,10123,Residential Property,"Terraced house, M4 6EB",331000.00,2025-12-01
+88,10124,Residential Property,"Detached house, G41 9ES",220000.00,2021-07-06
+89,10127,Vehicle,"Tesla Model 3, registered 2021",38400.00,2021-09-07
+90,10129,Residential Property,"Semi-detached house, M20 5TH",352000.00,2023-01-15
+91,10131,Residential Property,"Flat, B29 6DT",426000.00,2021-10-12
+92,10132,Residential Property,"Flat, B5 8QP",199000.00,2026-02-17
+93,10135,Residential Property,"Semi-detached house, M1 2HF",569000.00,2026-02-14
+94,10136,Vehicle,"Nissan Qashqai, registered 2021",22400.00,2025-05-13
+95,10137,Vehicle,"Tesla Model 3, registered 2018",49900.00,2023-04-25
+96,10138,Residential Property,"Semi-detached house, LS1 3AE",495000.00,2026-04-05
+97,10140,Residential Property,"Semi-detached house, G3 2XG",235000.00,2023-01-11
+98,10141,Residential Property,"Terraced house, CF10 5AP",449000.00,2024-07-11
+99,10142,Residential Property,"Semi-detached house, G3 5XW",526000.00,2025-02-07
+100,10143,Vehicle,"Nissan Qashqai, registered 2022",39000.00,2025-10-17
+101,10144,Residential Property,"Terraced house, BS1 7XH",249000.00,2024-10-16
+102,10145,Vehicle,"Vauxhall Corsa, registered 2018",34700.00,2022-09-17
+103,10148,Residential Property,"Flat, G1 2GG",403000.00,2025-07-30
+104,10149,Residential Property,"Detached house, M20 3RL",310000.00,2021-04-25
+105,10150,Commercial Property,Business premises,102000.00,2024-10-10
+106,10151,Residential Property,"Detached house, G1 4LQ",395000.00,2025-11-22
+107,10152,Receivables,Trade receivables,238000.00,2025-02-06
+108,10154,Vehicle,"VW Golf, registered 2025",31900.00,2025-03-25
+109,10155,Residential Property,"Semi-detached house, B5 2HD",453000.00,2024-01-31
+110,10156,Equipment,Machinery and equipment,47000.00,2024-04-04
+111,10157,Residential Property,"Flat, BS16 7XL",154000.00,2026-06-12
+112,10158,Vehicle,"Toyota Yaris, registered 2021",34100.00,2021-10-03
+113,10159,Residential Property,"Terraced house, G3 5XW",213000.00,2025-11-21
+114,10161,Residential Property,"Flat, BS8 5PU",715000.00,2024-01-11
+115,10163,Residential Property,"Terraced house, G12 5NE",434000.00,2025-02-08
+116,10164,Residential Property,"Terraced house, CF24 3QG",216000.00,2026-01-10
+117,10165,Residential Property,"Detached house, M20 4QN",268000.00,2022-08-21
+118,10166,Vehicle,"Tesla Model 3, registered 2019",25000.00,2024-12-24
+119,10167,Residential Property,"Flat, M20 4QN",320000.00,2025-12-11
+120,10168,Residential Property,"Semi-detached house, BS1 3SL",573000.00,2023-07-07
+121,10170,Residential Property,"Semi-detached house, SE1 1PU",217000.00,2021-06-01
+122,10171,Residential Property,"Semi-detached house, SE1 6WP",370000.00,2022-05-31
+123,10172,Residential Property,"Semi-detached house, NE4 6JP",771000.00,2026-02-21
+124,10174,Vehicle,"Tesla Model 3, registered 2017",10500.00,2024-04-21
+125,10176,Residential Property,"Detached house, SE1 3SL",159000.00,2022-03-03
+126,10177,Commercial Property,Business premises,29000.00,2022-03-09
+127,10181,Residential Property,"Terraced house, CF24 9AN",535000.00,2022-10-18
+128,10183,Vehicle,"Tesla Model 3, registered 2026",48500.00,2026-03-12
+129,10184,Residential Property,"Flat, NE1 8WN",256000.00,2025-12-19
+130,10185,Residential Property,"Detached house, NE1 7YT",169000.00,2024-07-27
+131,10186,Residential Property,"Semi-detached house, NE6 1GX",691000.00,2023-01-25
+132,10188,Vehicle,"Vauxhall Corsa, registered 2023",26300.00,2025-05-28
+133,10189,Residential Property,"Flat, M1 4HN",293000.00,2026-05-25
+134,10190,Vehicle,"Ford Puma, registered 2026",37900.00,2026-03-03
+135,10192,Residential Property,"Semi-detached house, BS1 6XR",201000.00,2025-03-02
+136,10193,Residential Property,"Semi-detached house, BS16 3GA",254000.00,2025-10-24
+137,10194,Residential Property,"Flat, EC1V 9EP",554000.00,2025-06-22
+138,10195,Residential Property,"Detached house, SW9 8PP",163000.00,2025-01-18
+139,10199,Vehicle,"Vauxhall Corsa, registered 2025",40000.00,2025-10-30
+140,10201,Vehicle,"Tesla Model 3, registered 2024",48700.00,2024-02-12
+141,10202,Residential Property,"Semi-detached house, M4 5DQ",498000.00,2021-04-02
+142,10206,Residential Property,"Semi-detached house, G3 5YD",159000.00,2025-10-03
+143,10207,Residential Property,"Detached house, CF11 2WL",147000.00,2026-04-06
+144,10209,Residential Property,"Semi-detached house, G1 2TY",393000.00,2025-10-08
+145,10210,Vehicle,"BMW 1 Series, registered 2021",9400.00,2026-01-14
+146,10211,Residential Property,"Flat, CF10 5AP",602000.00,2023-12-21
+147,10212,Residential Property,"Detached house, BS6 7BD",290000.00,2025-11-08
+148,10215,Receivables,Trade receivables,176000.00,2022-05-30
+149,10216,Residential Property,"Semi-detached house, CF14 2AH",569000.00,2025-12-02
+150,10217,Equipment,Machinery and equipment,297000.00,2026-03-11
+151,10219,Residential Property,"Detached house, NE6 2TU",464000.00,2025-04-06
+152,10220,Equipment,Machinery and equipment,62000.00,2024-10-20
+153,10222,Residential Property,"Semi-detached house, NE2 1QW",150000.00,2025-07-10
+154,10224,Residential Property,"Detached house, EC2A 2DF",364000.00,2025-02-20
+155,10225,Vehicle,"Toyota Yaris, registered 2025",47700.00,2025-06-16
+156,10226,Commercial Property,Business premises,210000.00,2025-01-22
+157,10227,Vehicle,"Ford Puma, registered 2024",9600.00,2025-12-30
+158,10228,Vehicle,"Vauxhall Corsa, registered 2026",21100.00,2026-04-01
+159,10230,Residential Property,"Flat, G1 9DE",624000.00,2025-02-05
+160,10231,Vehicle,"Nissan Qashqai, registered 2021",24200.00,2026-03-08
+161,10232,Vehicle,"Ford Puma, registered 2015",39200.00,2022-09-02
+162,10233,Residential Property,"Terraced house, CF14 3EE",704000.00,2025-02-14
+163,10235,Residential Property,"Flat, LS17 9QF",168000.00,2023-05-15
+164,10236,Vehicle,"Toyota Yaris, registered 2025",18100.00,2025-09-22
+165,10237,Residential Property,"Terraced house, NE1 2AA",157000.00,2024-04-03
+166,10238,Equipment,Machinery and equipment,107000.00,2024-02-04
+167,10239,Vehicle,"Kia Sportage, registered 2024",16500.00,2024-01-28
+168,10240,Residential Property,"Terraced house, B15 8DZ",677000.00,2025-10-11
+169,10241,Receivables,Trade receivables,253000.00,2024-12-20
+170,10242,Residential Property,"Semi-detached house, EC2A 9UP",140000.00,2023-09-18
+171,10243,Commercial Property,Business premises,150000.00,2026-06-03
+172,10244,Residential Property,"Detached house, NE6 7BN",268000.00,2025-10-25
+173,10246,Residential Property,"Semi-detached house, N1 5YS",338000.00,2022-09-14
+174,10248,Vehicle,"Ford Puma, registered 2021",12700.00,2024-11-24
+175,10249,Vehicle,"Kia Sportage, registered 2026",6500.00,2026-01-25
+176,10250,Vehicle,"Ford Puma, registered 2019",42800.00,2026-06-05
+177,10251,Residential Property,"Detached house, G3 3LZ",462000.00,2024-11-06
+178,10253,Residential Property,"Detached house, BS1 6LS",252000.00,2021-06-25
+179,10255,Receivables,Trade receivables,281000.00,2025-05-31
+180,10256,Commercial Property,Business premises,126000.00,2022-07-03
+181,10257,Vehicle,"Vauxhall Corsa, registered 2022",25000.00,2025-08-25
+182,10260,Vehicle,"BMW 1 Series, registered 2016",25700.00,2021-01-20
+183,10261,Residential Property,"Flat, CF11 7PQ",525000.00,2022-09-04
+184,10264,Vehicle,"Vauxhall Corsa, registered 2026",13700.00,2026-04-01
+185,10265,Vehicle,"Toyota Yaris, registered 2024",37700.00,2024-11-03
+186,10266,Vehicle,"BMW 1 Series, registered 2024",27200.00,2024-07-21
+187,10267,Residential Property,"Detached house, M20 1FS",522000.00,2025-03-04
+188,10268,Residential Property,"Detached house, BS16 1RF",249000.00,2025-06-07
+189,10269,Equipment,Machinery and equipment,169000.00,2026-03-23
+190,10270,Receivables,Trade receivables,70000.00,2026-06-13
+191,10271,Residential Property,"Flat, M1 2RY",434000.00,2025-12-02
+192,10272,Receivables,Trade receivables,101000.00,2024-08-13
+193,10273,Vehicle,"Vauxhall Corsa, registered 2024",27200.00,2024-04-02
+194,10274,Residential Property,"Flat, BS8 3JU",192000.00,2026-03-25
+195,10275,Residential Property,"Detached house, LS17 6PB",572000.00,2025-04-06
+196,10276,Receivables,Trade receivables,134000.00,2025-01-09
+197,10277,Commercial Property,Business premises,121000.00,2025-04-24
+198,10279,Equipment,Machinery and equipment,97000.00,2026-06-11
+199,10280,Vehicle,"Toyota Yaris, registered 2018",39200.00,2025-02-20
+200,10281,Residential Property,"Detached house, NE4 1SN",286000.00,2024-08-30
+201,10282,Residential Property,"Detached house, LS6 4FJ",661000.00,2025-12-02
+202,10284,Vehicle,"Kia Sportage, registered 2018",36700.00,2024-03-06
+203,10285,Vehicle,"Ford Puma, registered 2019",28000.00,2022-11-03
+204,10286,Residential Property,"Semi-detached house, BS8 5JH",554000.00,2025-06-20
+205,10287,Vehicle,"Toyota Yaris, registered 2024",8400.00,2024-02-14
+206,10292,Residential Property,"Semi-detached house, CF11 9NX",335000.00,2023-02-14
+207,10293,Residential Property,"Terraced house, M14 6GL",718000.00,2025-06-18
+208,10294,Vehicle,"Toyota Yaris, registered 2021",22000.00,2021-11-25
+209,10295,Residential Property,"Semi-detached house, LS17 1FW",147000.00,2026-04-23
+210,10296,Residential Property,"Detached house, B15 7PL",190000.00,2023-01-04
+211,10297,Vehicle,"Tesla Model 3, registered 2024",30300.00,2024-06-14
+212,10298,Residential Property,"Flat, NE6 4NP",525000.00,2026-06-06
+213,10299,Equipment,Machinery and equipment,205000.00,2025-08-01
+214,10300,Equipment,Machinery and equipment,37000.00,2026-03-19
+215,10302,Vehicle,"BMW 1 Series, registered 2026",46300.00,2026-04-28
+216,10304,Commercial Property,Business premises,169000.00,2025-10-14
+217,10306,Vehicle,"Vauxhall Corsa, registered 2021",30700.00,2021-08-22
+218,10308,Residential Property,"Semi-detached house, NE6 3AR",410000.00,2025-10-01
+219,10309,Vehicle,"Tesla Model 3, registered 2022",11300.00,2025-07-05
+220,10310,Residential Property,"Flat, G1 7US",172000.00,2024-02-01
+221,10313,Commercial Property,Business premises,225000.00,2025-12-29
+222,10314,Vehicle,"Tesla Model 3, registered 2022",39300.00,2025-06-26
+223,10315,Vehicle,"Kia Sportage, registered 2020",10400.00,2025-09-14
+224,10316,Residential Property,"Flat, B29 9SG",398000.00,2022-10-19
+225,10317,Residential Property,"Terraced house, LS6 3YZ",145000.00,2023-12-16
+226,10319,Residential Property,"Flat, LS8 3UN",298000.00,2021-12-19
+227,10321,Residential Property,"Terraced house, CF14 2AH",514000.00,2026-04-13
+228,10323,Vehicle,"VW Golf, registered 2019",32600.00,2023-10-31
+229,10324,Vehicle,"Toyota Yaris, registered 2022",32200.00,2025-03-24
+230,10325,Vehicle,"Kia Sportage, registered 2020",36000.00,2024-10-12
+231,10327,Residential Property,"Detached house, B1 8TY",469000.00,2024-12-31
+232,10328,Residential Property,"Flat, SE1 6WP",543000.00,2024-02-10
+233,10329,Residential Property,"Detached house, NE1 2AA",432000.00,2023-11-12
+234,10331,Receivables,Trade receivables,80000.00,2024-03-29
+235,10332,Equipment,Machinery and equipment,76000.00,2026-05-23
+236,10333,Residential Property,"Detached house, BS16 4FJ",568000.00,2025-08-05
+237,10335,Vehicle,"Ford Puma, registered 2020",16600.00,2026-03-21
+238,10339,Residential Property,"Terraced house, NE2 8WP",686000.00,2025-12-12
+239,10343,Vehicle,"Nissan Qashqai, registered 2018",18400.00,2021-11-22
+240,10344,Receivables,Trade receivables,55000.00,2021-11-13
+241,10346,Receivables,Trade receivables,124000.00,2026-02-06
+242,10347,Residential Property,"Flat, NE2 7DL",230000.00,2025-04-18
+243,10348,Residential Property,"Terraced house, B29 9SG",588000.00,2023-02-28
+244,10349,Residential Property,"Terraced house, NE6 5ZR",342000.00,2024-12-30
+245,10351,Residential Property,"Detached house, NE6 1GX",125000.00,2022-11-10
+246,10355,Commercial Property,Business premises,252000.00,2021-08-30
+247,10356,Residential Property,"Terraced house, CF14 3EE",524000.00,2023-10-14
+248,10358,Vehicle,"Tesla Model 3, registered 2019",23800.00,2024-03-14
+249,10360,Residential Property,"Semi-detached house, G12 8AD",537000.00,2023-07-20
+250,10361,Residential Property,"Detached house, BS1 8XG",633000.00,2026-05-27
+251,10362,Commercial Property,Business premises,156000.00,2025-10-21
+252,10363,Residential Property,"Flat, G1 2GG",237000.00,2024-10-20
+253,10364,Vehicle,"Toyota Yaris, registered 2025",6600.00,2025-05-10
+254,10365,Residential Property,"Flat, B15 8GZ",701000.00,2025-07-30
+255,10369,Residential Property,"Detached house, B5 4PE",612000.00,2021-04-12
+256,10370,Vehicle,"VW Golf, registered 2014",40300.00,2021-08-14
+257,10372,Residential Property,"Semi-detached house, LS17 8FF",446000.00,2021-08-13
+258,10373,Vehicle,"BMW 1 Series, registered 2021",32500.00,2024-12-04
+259,10374,Receivables,Trade receivables,68000.00,2026-02-18
+260,10375,Residential Property,"Detached house, B29 1RQ",278000.00,2026-04-03
+261,10376,Commercial Property,Business premises,57000.00,2025-10-02
+262,10377,Receivables,Trade receivables,113000.00,2025-08-17
+263,10378,Receivables,Trade receivables,118000.00,2026-01-14
+264,10380,Residential Property,"Detached house, M4 9SY",678000.00,2023-08-09
+265,10381,Vehicle,"Toyota Yaris, registered 2023",10900.00,2023-05-12
+266,10382,Equipment,Machinery and equipment,71000.00,2021-01-11
+267,10383,Vehicle,"Nissan Qashqai, registered 2021",53500.00,2023-08-19
+268,10384,Residential Property,"Semi-detached house, B29 7LD",416000.00,2026-02-04
+269,10385,Receivables,Trade receivables,338000.00,2025-09-19
+270,10386,Vehicle,"Ford Puma, registered 2023",12900.00,2023-08-14
+271,10387,Receivables,Trade receivables,157000.00,2023-01-04
+272,10390,Vehicle,"Ford Puma, registered 2026",24000.00,2026-03-09
+273,10391,Residential Property,"Flat, BS6 7BD",592000.00,2025-03-12
+274,10392,Residential Property,"Terraced house, G12 8AD",405000.00,2025-04-03
+275,10393,Residential Property,"Detached house, BS1 3AA",166000.00,2021-01-22
+276,10396,Residential Property,"Detached house, G1 4LQ",418000.00,2026-01-01
+277,10397,Vehicle,"VW Golf, registered 2019",15100.00,2025-02-22
+278,10398,Vehicle,"Toyota Yaris, registered 2025",22800.00,2025-11-12
+279,10399,Residential Property,"Detached house, B29 9ZP",432000.00,2025-10-11
+280,10400,Residential Property,"Detached house, NE1 3ED",272000.00,2026-03-24
+281,10402,Residential Property,"Detached house, B15 2DU",176000.00,2021-09-10
+282,10404,Residential Property,"Semi-detached house, G41 4RA",525000.00,2025-07-31
+283,10406,Residential Property,"Terraced house, NE1 7SX",433000.00,2026-03-31
+284,10407,Residential Property,"Detached house, BS8 5SB",512000.00,2023-10-07
+285,10408,Residential Property,"Detached house, BS6 6GL",500000.00,2022-03-10
+286,10409,Vehicle,"Nissan Qashqai, registered 2019",38300.00,2023-10-24
+287,10410,Residential Property,"Terraced house, NE6 9DU",262000.00,2026-04-22
+288,10412,Residential Property,"Terraced house, NE2 7DL",422000.00,2025-11-21
+289,10413,Residential Property,"Terraced house, BS16 3FQ",519000.00,2025-11-26
+290,10414,Residential Property,"Flat, SW9 2DL",510000.00,2024-11-03
+291,10415,Receivables,Trade receivables,117000.00,2025-10-28
+292,10416,Vehicle,"Kia Sportage, registered 2024",12900.00,2023-12-15
+293,10417,Residential Property,"Semi-detached house, G41 3JE",436000.00,2026-06-10
+294,10418,Equipment,Machinery and equipment,43000.00,2025-05-21
+295,10419,Commercial Property,Business premises,50000.00,2024-06-10
+296,10420,Vehicle,"Vauxhall Corsa, registered 2024",12800.00,2024-12-09
+297,10421,Vehicle,"Ford Puma, registered 2018",28200.00,2024-04-20
+298,10422,Vehicle,"VW Golf, registered 2022",24700.00,2025-11-20
+299,10427,Residential Property,"Detached house, BS1 4JA",151000.00,2026-02-24
+300,10428,Vehicle,"BMW 1 Series, registered 2026",38900.00,2026-01-01
+301,10429,Residential Property,"Terraced house, M4 3TL",397000.00,2025-05-03
+302,10430,Vehicle,"Vauxhall Corsa, registered 2020",32500.00,2025-07-17
+303,10432,Residential Property,"Terraced house, EC2A 2LA",261000.00,2021-06-28
+304,10433,Residential Property,"Flat, G3 5YD",401000.00,2026-02-06
+305,10434,Vehicle,"Nissan Qashqai, registered 2022",39000.00,2025-08-06
+306,10436,Residential Property,"Semi-detached house, LS6 8DA",300000.00,2024-04-30
+307,10437,Residential Property,"Detached house, CF14 7DE",102000.00,2023-07-30
+308,10439,Receivables,Trade receivables,246000.00,2023-08-02
+309,10440,Residential Property,"Semi-detached house, BS6 4US",217000.00,2022-05-12
+310,10441,Residential Property,"Detached house, NE4 8ZU",368000.00,2024-08-06
+311,10442,Residential Property,"Semi-detached house, W2 2TF",718000.00,2026-02-24
+312,10443,Residential Property,"Flat, BS6 7BD",652000.00,2024-10-29
+313,10444,Residential Property,"Terraced house, B5 5WD",550000.00,2022-08-10
+314,10445,Residential Property,"Detached house, G1 4LQ",740000.00,2026-05-20
+315,10446,Residential Property,"Semi-detached house, G41 5NY",166000.00,2024-06-16
+316,10447,Commercial Property,Business premises,133000.00,2026-05-10
+317,10448,Vehicle,"Nissan Qashqai, registered 2025",31200.00,2025-02-14
+318,10449,Equipment,Machinery and equipment,160000.00,2026-04-12
+319,10450,Vehicle,"Ford Puma, registered 2026",45500.00,2026-03-18
+320,10451,Residential Property,"Flat, NE4 2DD",138000.00,2025-09-14
+321,10453,Residential Property,"Detached house, M1 9UF",458000.00,2026-01-18
+322,10454,Commercial Property,Business premises,201000.00,2026-05-29
+323,10455,Vehicle,"Ford Puma, registered 2026",10000.00,2026-05-04
+324,10457,Residential Property,"Semi-detached house, B1 7XJ",132000.00,2024-01-20
+325,10458,Vehicle,"Nissan Qashqai, registered 2021",44500.00,2022-12-20
+326,10459,Vehicle,"VW Golf, registered 2022",11000.00,2025-07-27
+327,10460,Vehicle,"Tesla Model 3, registered 2019",43000.00,2024-02-25
+328,10461,Residential Property,"Terraced house, B5 8FP",473000.00,2026-03-29
+329,10463,Residential Property,"Flat, BS1 8SP",669000.00,2025-04-15
+330,10466,Equipment,Machinery and equipment,60000.00,2025-05-18
+331,10467,Vehicle,"Vauxhall Corsa, registered 2023",34400.00,2023-07-25
+332,10468,Residential Property,"Semi-detached house, CF10 6QH",343000.00,2023-04-19
+333,10469,Residential Property,"Terraced house, B15 4ZP",271000.00,2022-08-05
+334,10470,Vehicle,"Nissan Qashqai, registered 2016",44100.00,2023-10-15
+335,10472,Vehicle,"Nissan Qashqai, registered 2020",35800.00,2022-12-10
+336,10473,Vehicle,"Tesla Model 3, registered 2025",23600.00,2025-05-05
+337,10474,Commercial Property,Business premises,55000.00,2025-11-12
+338,10476,Commercial Property,Business premises,175000.00,2024-07-11
+339,10478,Residential Property,"Semi-detached house, M1 9TE",691000.00,2025-10-29
+340,10479,Residential Property,"Semi-detached house, BS1 8JT",247000.00,2025-11-08
+341,10480,Residential Property,"Terraced house, G41 9EE",203000.00,2024-03-27
+342,10485,Residential Property,"Semi-detached house, CF11 9NX",231000.00,2021-02-27
+343,10486,Receivables,Trade receivables,100000.00,2025-12-25
+344,10488,Equipment,Machinery and equipment,81000.00,2025-08-26
+345,10490,Equipment,Machinery and equipment,277000.00,2023-07-16
+346,10492,Residential Property,"Flat, M1 3QN",438000.00,2021-07-13
+347,10493,Residential Property,"Terraced house, G3 5XW",360000.00,2024-07-24
+348,10494,Vehicle,"Nissan Qashqai, registered 2023",20100.00,2025-12-01
+349,10496,Residential Property,"Flat, SW9 8PP",176000.00,2021-10-10
+350,10497,Residential Property,"Flat, N1 3BW",532000.00,2026-03-15
+351,10499,Residential Property,"Terraced house, G1 2GG",471000.00,2024-07-28
+352,10502,Vehicle,"Nissan Qashqai, registered 2024",48900.00,2024-01-24
+353,10503,Residential Property,"Semi-detached house, NE4 6UP",661000.00,2026-04-23
+354,10504,Residential Property,"Terraced house, W2 4UU",305000.00,2022-07-23
+355,10505,Residential Property,"Semi-detached house, G3 5YD",156000.00,2025-08-20
+356,10509,Vehicle,"Kia Sportage, registered 2023",34300.00,2023-05-24
+357,10510,Residential Property,"Detached house, E1 6FZ",372000.00,2024-09-25
+358,10511,Vehicle,"Ford Puma, registered 2021",7600.00,2021-11-18
+359,10512,Residential Property,"Terraced house, B5 4YE",424000.00,2026-06-23
+360,10513,Equipment,Machinery and equipment,59000.00,2025-07-26
+361,10514,Residential Property,"Terraced house, NE4 1GA",356000.00,2025-05-07
+362,10515,Residential Property,"Flat, M14 1HF",465000.00,2026-01-31
+363,10516,Residential Property,"Flat, M14 8WJ",661000.00,2023-05-19
+364,10518,Vehicle,"Tesla Model 3, registered 2025",14900.00,2025-09-05
+365,10519,Vehicle,"Toyota Yaris, registered 2022",31700.00,2022-04-13
+366,10520,Residential Property,"Detached house, CF14 4HW",628000.00,2026-06-02
+367,10526,Vehicle,"BMW 1 Series, registered 2022",29600.00,2022-06-04
+368,10528,Residential Property,"Detached house, EC1V 9EP",357000.00,2025-04-23
+369,10529,Residential Property,"Terraced house, CF24 8LP",179000.00,2025-09-26
+370,10530,Receivables,Trade receivables,117000.00,2023-07-14
+371,10531,Residential Property,"Detached house, B15 8GZ",334000.00,2023-01-05
+372,10532,Residential Property,"Flat, B5 4ZW",519000.00,2025-02-19
+373,10534,Vehicle,"Tesla Model 3, registered 2021",23600.00,2025-02-07
+374,10535,Residential Property,"Terraced house, CF11 9WR",213000.00,2023-11-14
+375,10536,Residential Property,"Semi-detached house, B5 9RY",223000.00,2025-11-02
+376,10537,Residential Property,"Flat, M20 6YQ",458000.00,2022-02-10
+377,10538,Vehicle,"BMW 1 Series, registered 2024",24400.00,2023-11-29
+378,10540,Receivables,Trade receivables,110000.00,2022-08-31
+379,10541,Vehicle,"VW Golf, registered 2018",16600.00,2025-11-27
+380,10542,Residential Property,"Detached house, SE1 6WP",171000.00,2023-12-03
+381,10543,Residential Property,"Terraced house, B5 3HG",425000.00,2023-10-25
+382,10548,Vehicle,"Kia Sportage, registered 2021",20700.00,2021-03-29
+383,10549,Vehicle,"Nissan Qashqai, registered 2022",26200.00,2024-07-06
+384,10551,Vehicle,"VW Golf, registered 2026",23200.00,2026-03-08
+385,10552,Commercial Property,Business premises,265000.00,2026-01-13
+386,10555,Residential Property,"Detached house, BS1 3NZ",318000.00,2026-03-13
+387,10557,Residential Property,"Detached house, M14 6GL",238000.00,2021-09-09
+388,10558,Vehicle,"BMW 1 Series, registered 2022",36700.00,2022-07-08
+389,10559,Equipment,Machinery and equipment,242000.00,2026-02-26
+390,10561,Vehicle,"Nissan Qashqai, registered 2025",23300.00,2025-11-24
+391,10562,Vehicle,"Ford Puma, registered 2026",11500.00,2026-03-24
+392,10563,Residential Property,"Detached house, G3 1ZP",442000.00,2022-02-13
+393,10564,Vehicle,"Kia Sportage, registered 2021",27000.00,2021-02-16
+394,10565,Vehicle,"Nissan Qashqai, registered 2025",16700.00,2025-03-05
+395,10568,Equipment,Machinery and equipment,155000.00,2026-02-24
+396,10569,Vehicle,"VW Golf, registered 2019",27300.00,2026-03-24
+397,10570,Vehicle,"Ford Puma, registered 2023",20800.00,2023-01-03
+398,10571,Residential Property,"Semi-detached house, LS1 6TB",525000.00,2024-03-08
+399,10572,Residential Property,"Detached house, NE1 7YT",285000.00,2024-11-02
+400,10575,Residential Property,"Flat, SW9 8JR",467000.00,2021-01-23
+401,10576,Residential Property,"Terraced house, BS8 8FE",279000.00,2023-07-19
+402,10578,Residential Property,"Flat, M14 8XZ",407000.00,2025-11-23
+403,10579,Residential Property,"Detached house, BS8 5PU",482000.00,2025-05-17
+404,10580,Vehicle,"Nissan Qashqai, registered 2016",16400.00,2021-03-03
+405,10581,Residential Property,"Terraced house, CF10 6EU",141000.00,2024-01-15
+406,10582,Residential Property,"Detached house, EC2A 8FU",280000.00,2024-10-16
+407,10585,Residential Property,"Flat, BS6 7QD",230000.00,2025-07-02
+408,10586,Residential Property,"Terraced house, M1 9TE",316000.00,2021-12-18
+409,10589,Residential Property,"Detached house, G41 3JE",338000.00,2023-08-07
+410,10590,Vehicle,"Tesla Model 3, registered 2024",20300.00,2024-04-25
+411,10591,Residential Property,"Terraced house, G41 9EE",283000.00,2026-06-09
+412,10592,Vehicle,"Kia Sportage, registered 2025",38600.00,2025-11-29
+413,10594,Vehicle,"Vauxhall Corsa, registered 2022",21100.00,2022-04-11
+414,10595,Residential Property,"Terraced house, G3 2XG",380000.00,2021-09-28
+415,10599,Vehicle,"Ford Puma, registered 2021",24400.00,2026-03-16
+416,10602,Vehicle,"Nissan Qashqai, registered 2026",39000.00,2026-04-30
+417,10604,Residential Property,"Terraced house, B5 5UG",232000.00,2024-10-02
+418,10605,Vehicle,"Ford Puma, registered 2017",18200.00,2024-09-03
+419,10606,Vehicle,"BMW 1 Series, registered 2019",19000.00,2025-07-20
+420,10608,Residential Property,"Detached house, NE2 6AE",445000.00,2023-04-02
+421,10610,Residential Property,"Detached house, LS8 1ZX",474000.00,2025-02-10
+422,10612,Residential Property,"Flat, E1 6FZ",376000.00,2023-01-11
+423,10613,Receivables,Trade receivables,131000.00,2023-05-16
+424,10614,Commercial Property,Business premises,257000.00,2025-03-15
+425,10615,Vehicle,"Ford Puma, registered 2022",9800.00,2025-07-07
+426,10616,Vehicle,"Tesla Model 3, registered 2017",21800.00,2023-04-25
+427,10617,Residential Property,"Terraced house, B5 1WU",164000.00,2021-06-25
+428,10619,Residential Property,"Terraced house, M4 5JJ",322000.00,2024-09-30
+429,10620,Residential Property,"Detached house, BS1 8XG",507000.00,2026-02-13
+430,10621,Residential Property,"Flat, NE2 2SL",379000.00,2026-05-09
+431,10622,Vehicle,"Nissan Qashqai, registered 2024",30400.00,2024-08-07
+432,10623,Residential Property,"Flat, W2 2TF",552000.00,2025-07-02
+433,10624,Residential Property,"Terraced house, LS6 6WX",110000.00,2021-02-25
+434,10625,Commercial Property,Business premises,159000.00,2025-12-18
+435,10627,Residential Property,"Terraced house, NE1 7SX",554000.00,2026-01-06
+436,10628,Equipment,Machinery and equipment,257000.00,2023-09-09
+437,10629,Residential Property,"Semi-detached house, B29 6JX",355000.00,2023-10-16
+438,10631,Residential Property,"Semi-detached house, G41 5FF",576000.00,2025-07-07
+439,10632,Residential Property,"Flat, B29 9SG",508000.00,2024-06-20
+440,10633,Residential Property,"Flat, NE6 3EA",479000.00,2024-05-24
+441,10634,Residential Property,"Detached house, NE6 6GH",476000.00,2024-10-11
+442,10638,Residential Property,"Terraced house, G1 2GG",373000.00,2025-07-14
+443,10639,Residential Property,"Terraced house, M20 3SF",123000.00,2025-07-19
+444,10641,Vehicle,"Ford Puma, registered 2025",43300.00,2025-08-12
+445,10642,Residential Property,"Detached house, EC1V 4RG",281000.00,2024-04-19
+446,10647,Receivables,Trade receivables,122000.00,2024-07-06
+447,10648,Residential Property,"Semi-detached house, LS8 3UN",121000.00,2023-07-21
+448,10650,Residential Property,"Flat, BS1 8JT",427000.00,2025-10-24
+449,10651,Residential Property,"Terraced house, LS17 7GA",449000.00,2026-02-07
+450,10652,Vehicle,"Vauxhall Corsa, registered 2020",12000.00,2026-03-06
+451,10654,Vehicle,"Toyota Yaris, registered 2023",23100.00,2023-03-22
+452,10655,Residential Property,"Flat, NE6 5ZR",174000.00,2024-02-18
+453,10656,Vehicle,"Nissan Qashqai, registered 2021",49900.00,2024-10-11
+454,10658,Vehicle,"VW Golf, registered 2021",22100.00,2021-05-19
+455,10660,Vehicle,"Ford Puma, registered 2021",17300.00,2021-03-03
+456,10661,Vehicle,"VW Golf, registered 2021",48100.00,2021-11-16
+457,10662,Residential Property,"Detached house, NE2 1PN",390000.00,2024-08-12
+458,10663,Residential Property,"Flat, M20 6FS",345000.00,2025-10-21
+459,10666,Residential Property,"Semi-detached house, CF10 6BA",544000.00,2025-05-25
+460,10667,Receivables,Trade receivables,204000.00,2025-05-21
+461,10668,Residential Property,"Detached house, B29 4SE",229000.00,2022-09-20
+462,10670,Residential Property,"Flat, B15 9YX",438000.00,2024-05-22
+463,10672,Residential Property,"Flat, CF10 8ZL",235000.00,2024-09-30
+464,10674,Residential Property,"Detached house, CF10 6QH",169000.00,2022-03-11
+465,10676,Residential Property,"Flat, BS6 6NN",181000.00,2026-03-01
+466,10677,Residential Property,"Terraced house, NE6 1NB",430000.00,2025-11-13
+467,10679,Vehicle,"Kia Sportage, registered 2020",18300.00,2022-08-30
+468,10681,Residential Property,"Semi-detached house, LS8 4WX",351000.00,2024-09-09
+469,10683,Residential Property,"Detached house, BS16 2FD",299000.00,2025-06-27
+470,10687,Commercial Property,Business premises,70000.00,2022-04-12
+471,10689,Equipment,Machinery and equipment,39000.00,2023-10-26
+472,10691,Receivables,Trade receivables,199000.00,2026-05-29
+473,10692,Commercial Property,Business premises,116000.00,2022-11-15
+474,10694,Residential Property,"Semi-detached house, EC1V 9UA",752000.00,2024-05-01
+475,10695,Vehicle,"Nissan Qashqai, registered 2022",14700.00,2022-07-25
+476,10696,Vehicle,"VW Golf, registered 2023",23800.00,2023-02-14
+477,10697,Residential Property,"Flat, M20 8SA",555000.00,2021-06-27
+478,10698,Equipment,Machinery and equipment,192000.00,2024-08-23
+479,10701,Residential Property,"Terraced house, B29 2AH",435000.00,2024-04-27
+480,10702,Residential Property,"Flat, EC2A 7GB",642000.00,2024-09-24
+481,10703,Residential Property,"Flat, CF14 8SB",612000.00,2022-10-31
+482,10704,Residential Property,"Flat, M20 3RL",280000.00,2025-01-20
+483,10705,Residential Property,"Terraced house, M14 6UU",140000.00,2022-07-25
+484,10706,Vehicle,"VW Golf, registered 2026",43600.00,2026-01-15
+485,10707,Residential Property,"Detached house, CF11 2WL",140000.00,2026-02-16
+486,10708,Residential Property,"Terraced house, CF24 9AN",409000.00,2021-08-06
+487,10709,Vehicle,"Nissan Qashqai, registered 2020",51400.00,2025-03-09
+488,10710,Residential Property,"Detached house, M4 2EE",119000.00,2025-11-25
+489,10714,Vehicle,"Kia Sportage, registered 2024",49800.00,2024-05-01
+490,10715,Residential Property,"Detached house, CF10 2RZ",488000.00,2024-05-04
+491,10716,Equipment,Machinery and equipment,86000.00,2023-02-07
+492,10717,Receivables,Trade receivables,246000.00,2026-01-21
+493,10719,Residential Property,"Detached house, BS1 1UE",284000.00,2023-10-27
+494,10720,Residential Property,"Detached house, G3 3LZ",682000.00,2026-02-12
+495,10721,Residential Property,"Detached house, M1 2HF",346000.00,2023-11-18
+496,10722,Residential Property,"Detached house, NE6 3AR",231000.00,2026-02-04
+497,10723,Equipment,Machinery and equipment,65000.00,2022-09-19
+498,10724,Vehicle,"Tesla Model 3, registered 2017",23200.00,2023-02-28
+499,10726,Vehicle,"Toyota Yaris, registered 2022",41200.00,2024-03-27
+500,10727,Receivables,Trade receivables,92000.00,2023-02-26
+501,10728,Vehicle,"Tesla Model 3, registered 2022",12700.00,2022-08-17
+502,10731,Residential Property,"Terraced house, G41 5NY",629000.00,2024-11-04
+503,10732,Residential Property,"Terraced house, CF10 6BA",395000.00,2026-03-26
+504,10735,Equipment,Machinery and equipment,126000.00,2021-05-26
+505,10736,Vehicle,"Vauxhall Corsa, registered 2025",16200.00,2025-11-13
+506,10737,Residential Property,"Flat, M1 3AS",463000.00,2023-10-08
+507,10738,Residential Property,"Detached house, CF24 6ET",368000.00,2025-08-26
+508,10739,Vehicle,"Nissan Qashqai, registered 2021",9200.00,2022-12-05
+509,10740,Vehicle,"Kia Sportage, registered 2026",46600.00,2026-04-09
+510,10741,Vehicle,"Nissan Qashqai, registered 2016",33500.00,2022-09-22
+511,10744,Residential Property,"Flat, G1 3UD",436000.00,2022-04-14
+512,10745,Residential Property,"Flat, NE4 8AG",558000.00,2025-09-03
+513,10746,Vehicle,"Nissan Qashqai, registered 2021",8200.00,2024-03-30
+514,10748,Residential Property,"Terraced house, NE2 1LD",611000.00,2024-06-20
+515,10749,Commercial Property,Business premises,83000.00,2022-02-03
+516,10750,Vehicle,"Kia Sportage, registered 2024",31000.00,2024-04-02
+517,10754,Residential Property,"Semi-detached house, BS16 5XW",517000.00,2024-12-21
+518,10755,Vehicle,"Tesla Model 3, registered 2022",10900.00,2024-01-19
+519,10756,Receivables,Trade receivables,336000.00,2024-01-24
+520,10757,Residential Property,"Detached house, M1 9UF",217000.00,2021-09-26
+521,10759,Residential Property,"Terraced house, BS8 8FE",498000.00,2026-01-13
+522,10762,Vehicle,"VW Golf, registered 2026",27100.00,2026-03-03
+523,10763,Residential Property,"Flat, SE1 8DJ",513000.00,2025-10-21
+524,10764,Vehicle,"Kia Sportage, registered 2022",38400.00,2022-07-07
+525,10765,Residential Property,"Semi-detached house, NE1 2SZ",411000.00,2024-02-04
+526,10766,Vehicle,"Toyota Yaris, registered 2019",40500.00,2023-07-21
+527,10767,Residential Property,"Detached house, G3 2XG",448000.00,2024-08-07
+528,10768,Vehicle,"Nissan Qashqai, registered 2026",31000.00,2026-03-06
+529,10770,Residential Property,"Flat, NE2 8WP",258000.00,2026-05-14
+530,10773,Vehicle,"VW Golf, registered 2025",51700.00,2025-08-31
+531,10774,Residential Property,"Flat, G1 5XE",313000.00,2026-04-24
+532,10775,Vehicle,"Kia Sportage, registered 2021",10500.00,2025-08-13
+533,10778,Residential Property,"Flat, BS8 4HD",211000.00,2023-02-08
+534,10779,Residential Property,"Detached house, E1 2YR",605000.00,2023-12-07
+535,10780,Vehicle,"Nissan Qashqai, registered 2025",26500.00,2025-08-31
+536,10781,Vehicle,"Vauxhall Corsa, registered 2019",8000.00,2026-01-30
+537,10785,Residential Property,"Detached house, NE4 7FF",551000.00,2025-11-18
+538,10787,Vehicle,"Ford Puma, registered 2026",21400.00,2026-02-27
+539,10789,Residential Property,"Detached house, BS8 3AP",248000.00,2022-06-02
+540,10790,Equipment,Machinery and equipment,170000.00,2024-04-20
+541,10791,Vehicle,"VW Golf, registered 2026",36400.00,2025-12-25
+542,10792,Residential Property,"Terraced house, M14 4JD",413000.00,2025-09-16
+543,10793,Vehicle,"VW Golf, registered 2020",33800.00,2024-07-28
+544,10794,Vehicle,"Ford Puma, registered 2020",10600.00,2026-05-09
+545,10795,Residential Property,"Flat, NE6 5EX",626000.00,2026-01-23
+546,10796,Vehicle,"Ford Puma, registered 2025",9000.00,2025-05-17
+547,10797,Residential Property,"Semi-detached house, M14 6UU",331000.00,2021-10-05
+548,10798,Residential Property,"Terraced house, M14 5YT",427000.00,2026-03-16
+549,10799,Residential Property,"Terraced house, NE2 3JG",359000.00,2022-09-21
+550,10800,Residential Property,"Terraced house, SW9 8JR",478000.00,2024-06-01

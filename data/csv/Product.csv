@@ -1,0 +1,9 @@
+ProductCode,ProductName,ProductType,BaseRate,MaxTermMonths,IsSecured
+MTG-FIX2,Fixed-Rate Mortgage 2 Years,Mortgage,4.89,360,1
+MTG-FIX5,Fixed-Rate Mortgage 5 Years,Mortgage,4.59,360,1
+MTG-TRK,Tracker Mortgage,Mortgage,5.24,300,1
+PL-STD,Personal Loan,Personal,7.90,60,0
+PL-CONS,Debt Consolidation Loan,Personal,9.40,84,0
+AUTO-NEW,New Car Loan,Auto,6.70,60,1
+AUTO-USD,Used Car Loan,Auto,8.20,48,1
+SME-TERM,Small Business Term Loan,SME,8.75,120,1
