@@ -1,12 +1,15 @@
 # SQL Server from Zero — companion repository
 
-Material for the book **SQL Server from Zero: Every Command Explained Step by Step for Absolute Beginners** by Mohamed Miled.
+Material for the two volumes of **SQL Server from Zero: Every Command Explained Step by Step for Absolute Beginners** by Mohamed Miled.
 
-Everything you need to follow the book: the Northbridge Lending dataset (CSV, Excel and SQL), every example of every chapter, and every correction of every exercise.
+- **Volume 1** (chapters 1–28): reading data, the T-SQL language, changing data and defining structures (DQL, DML, DDL).
+- **Volume 2** (chapters 29–42): security and permissions (DCL), transactions and error handling (TCL), linked servers, backup and restore, server administration, DBCC, Service Broker and a capstone project.
+
+Everything you need to follow the books: the Northbridge Lending dataset (CSV, Excel and SQL), every example of every chapter, and every correction of every exercise.
 
 ## Requirements
 
-- SQL Server 2025 Enterprise Developer Edition (free for learning and testing) or SQL Server 2022. Every script runs on both.
+- SQL Server 2025 Enterprise Developer Edition (free for learning and testing) Every script in this repository has been run on SQL Server 2025.
 - SQL Server Management Studio 22 (Windows), or Visual Studio Code with the SQL Server (mssql) extension (macOS, Linux).
 - On macOS and Linux, run SQL Server in Docker:
 
@@ -68,6 +71,7 @@ Northbridge Lending is a fictional UK lender: 8 branches, 24 loan officers, 8 lo
 - Type the examples yourself first; open the chapter script to check a statement that does not work.
 - Try every exercise before opening its solution.
 - Scripts that change data end with a clean-up block. If your results differ from the book's, rebuild the database with the three setup scripts.
+- Volume 2 scripts change server-wide settings and create logins, linked servers, audits and backups: run them on your own computer as a member of `sysadmin`, never on a server at work. Each script removes what it creates and restores every setting at the end.
 - Chapter 15 loads the CSV files with `BULK INSERT`: copy `data/csv` to `C:\NorthbridgeData\` on Windows, or into the container with `docker cp` (see the chapter).
 
 ## Test every script
@@ -80,4 +84,4 @@ Northbridge Lending is a fictional UK lender: 8 branches, 24 loan officers, 8 lo
 
 ## Licence
 
-The SQL scripts may be used freely in your own work. The dataset is fictional and may be used for teaching. The book text is © 2026 Mohamed Miled.
+The SQL scripts may be used freely in your own work. The dataset is fictional and may be used for teaching. The text of both books is © 2026 Mohamed Miled.
