@@ -134,7 +134,8 @@ UPDATE dbo.Practice_Payment
 SET AmountDue = AmountDue + 0.01;  -- a real change on every row
 GO
 
--- Dirty pages of the copy: above zero
+-- Dirty pages of the copy: above zero, or 0 if the background writer
+-- of indirect checkpoints has already written them
 SELECT COUNT(*) AS DirtyPages
 FROM sys.dm_os_buffer_descriptors AS bd
 INNER JOIN sys.allocation_units AS au
