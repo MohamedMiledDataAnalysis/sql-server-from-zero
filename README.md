@@ -84,4 +84,5 @@ Northbridge Lending is a fictional UK lender: 8 branches, 24 loan officers, 8 lo
 
 ## Licence
 
-The SQL scripts may be used freely in your own work. The dataset is fictional and may be used for teaching. The text of both books is © 2026 Mohamed Miled.
+- **Code**: MIT licence (see `LICENSE`). Reuse it freely in your own projects.
+- **Written material** (solutions, corrections, READMEs, guides, documents and data files): © 2026 Mohamed Miled, all rights reserved, like the book *SQL Server from Zero: Every Command Explained Step by Step for Absolute Beginners*. Read it and study with it; do not copy, republish or sell it (see `LICENSE-TEXT.md`).
